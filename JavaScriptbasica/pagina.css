@@ -1,0 +1,83 @@
+* { 
+    outline: 1px dotted red;
+ }
+#padre{
+    background: #1b345d;
+    width: 970px;
+    margin: auto;
+    font-style: inherit;
+    position: relative;
+    padding: 15px;
+}
+h1{
+    background: #cf3036;
+    margin: 0 0 15px 0;
+    height: 70px;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+/* ----------------------------------------------------------------------------------------- */
+.lista{
+    background:#2a7d8c ;
+    width:170px;
+    text-decoration: underline;
+    font-size: 15px;
+    color: aqua;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+.lista ul{
+padding: 0 0 0 25px;
+}
+.lista .lista2{
+    padding-left: 15px;
+}
+/* --------------------------------------------------------------------------------------------- */
+.bloque{
+    background: #0e1822;
+    width: 740px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    border-radius: 15px;
+    margin: 0 0 15px 15px;
+    display: inline-block;
+    
+}
+.bloque p{
+    margin: 0 10px 0 ;
+}
+.bloque h3{
+    font-size: 27px;
+    margin: 10px 0 10px 5px;
+}
+.bloque ul li span{
+    color: rgb(141, 125, 182);
+}
+.bloque .inicio{
+    color: aqua;
+    text-decoration: underline;
+}        
+.bloque ul{
+    padding: 0 0 0 25px;
+}                                                                                                                                                    
+.bloque ul li{
+    margin: 10px 10px 10px 0;
+}
+/* ------------------------------------------------------------------------------------- */
+.enlace{
+    background:#5d6673 ;
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+} 
+.enlace a{
+    color: aqua;
+}

@@ -1,0 +1,285 @@
+* {
+  /* outline: 1px dotted pink; */
+  box-sizing: border-box;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------ */
+#contenedor .red {
+  color: rgb(219, 79, 79);
+}
+#contenedor .blue {
+  color: #2d6ca2;
+}
+#contenedor .celeste {
+  color: #0097ae;
+}
+#contenedor .black {
+  color: black;
+  font-weight: bold;
+}
+/* ------------------------------------------------------------------------------------------------ */
+#contenedor {
+  background-color: white;
+  width: 970px;
+  margin: 0 auto;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.box1 {
+  width: 970px;
+  height: auto;
+  background-color: white;
+}
+.box1 .planeta {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  top: 26px;
+}
+.box1 .titulo {
+  min-width: 200px;
+  font-weight: 20;
+  height: auto;
+  font-size: 50px;
+  display: inline-block;
+  margin: 2px;
+}
+.box1 .subtitulo {
+  color: white;
+  padding: 12px 0 5px 18px;
+  font-size: 25px;
+  background: linear-gradient(0deg, #2d6ca2 0%, #5082ac 46%, #2d6ca2 100%);
+  width: 970px;
+  height: 50px;
+  margin: 0;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.box2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 56%,rgba(255, 255, 255, 1) 77%,rgba(227, 227, 227, 1) 100%);
+  width: 970px;
+  min-height: 400px;
+  color: white;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.box2 .lateral-izquierdo {
+  vertical-align: top;
+  min-width: 200px;
+  min-height: 600px;
+
+  display: inline-block;
+}
+.lateral-izquierdo .lista {
+  width: 210px;
+  margin: 18px 0 0 0;
+  padding: 5px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+.lateral-izquierdo li {
+  min-width: 150px;
+  margin-bottom: 15px;
+}
+.lateral-izquierdo .botone1 {
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #2d6ca2;
+  font-size: 18px;
+  padding: 4px;
+  margin: 5px 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #373c3c;
+}
+.lateral-izquierdo .botone2 {
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  font-size: 18px;
+  padding: 4px;
+  margin: 5px 5px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #373c3c;
+}
+
+.lateral-izquierdo .botone1:hover {
+  background: white;
+  color: #444444;
+  cursor: pointer;
+}
+.lateral-izquierdo .botone2:hover {
+  background: white;
+  color: #444444;
+  cursor: pointer;
+}
+.lateral-izquierdo .barra-blanca {
+  width: 210px;
+  height: 1px;
+  margin: 10px 0;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  box-shadow: 3px 5px 3px #373c3c;
+}
+.lateral-izquierdo .fondo {
+  text-align: center;
+  min-height: 300px;
+  width: 210px;
+  background: url(www-images/images/ad_background.png);
+}
+.lateral-izquierdo .fondo .mensaje {
+  color: white;
+  padding: 10px;
+  font-size: 23px;
+}
+.lateral-izquierdo .fondo .imagen {
+  width: 80px;
+  height: auto;
+}
+
+.lateral-izquierdo .fondo .boton-learn-more {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: #08c5df;
+  font-size: 18px;
+  padding: 4px;
+  margin: 5px 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #373c3c;
+}
+.lateral-izquierdo .fondo .boton-learn-more::after {
+  content: "  >>>";
+  font-size: 12px;
+}
+.lateral-izquierdo .fondo .boton-learn-more:hover {
+  background: white;
+  color: #444444;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.box2 .lateral-derecho {
+  padding-left: 40px;
+  padding-right: 2px;
+  vertical-align: top;
+  min-width: 740px;
+  min-height: 300px;
+  display: inline-block;
+}
+.lateral-derecho .box3 {
+  min-width: 650px;
+  min-height: 60px;
+  border-bottom: 3px solid whitesmoke;
+}
+.lateral-derecho .casa-dns {
+  vertical-align: top;
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 80px;
+  display: inline-block;
+}
+.lateral-derecho .casa-dns li {
+  display: inline-block;
+}
+.lateral-derecho .casa-dns .casa {
+  padding: 0;
+  width: 20px;
+}
+.lateral-derecho .casa-dns .dns {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+.lateral-derecho .telefono-horario{
+  vertical-align: top;
+  min-width: 100px;
+  min-height: 50px;
+  display: inline-block;
+  margin: 0 0 0 59%;
+  text-align: right;
+}
+.lateral-derecho .telefono {
+  /* position: relative; */
+  width: 43px;
+  height: auto;
+  left: 400px;
+  bottom: 4px;
+}
+.lateral-derecho .horario {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.lateral-derecho .horario .numero-telf {
+  font-size: 25px;
+  color: #06c1df;
+}
+.lateral-derecho .horario li {
+  font-size: 11px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+.lateral-derecho .titulo-contenido {
+  color: #22659e;
+  min-width: 300px;
+  height: auto;
+}
+.lateral-derecho .parrafo-contenido {
+  min-width: 400px;
+  height: auto;
+}
+.lateral-derecho .lista-contenido {
+  padding: 0 1px 0 40px;
+  width: 700px;
+  height: auto;
+}
+.lateral-derecho .imagen-contenido {
+  width: 250px;
+  height: auto;
+  margin: 0 30%;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.lateral-derecho .titulo-contenido-2 {
+  color: #22659e;
+  width: 300px;
+  height: auto;
+}
+.lateral-derecho .lista-contenido-2 {
+  width: 700px;
+  height: auto;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.lateral-derecho .box4 {
+  min-width: 600px;
+  height: auto;
+  border: 3px solid #0085e0;
+}
+.lateral-derecho .box4 .imagen-box4 {
+  width: 130px;
+  height: auto;
+}
+.lateral-derecho .box4 .parrafos-box4 {
+  padding-left: 15px;
+  margin: 0;
+  list-style-type: none;
+  width: 560px;
+  display: inline-block;
+}
+.lateral-derecho .parrafos-box4 .titulo-box4{
+  color: #22659e;
+}
+.lateral-derecho .parrafos-box4 li {
+  margin-bottom: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */

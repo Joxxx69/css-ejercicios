@@ -1,0 +1,53 @@
+*{
+    outline: 1px dotted pink;
+}
+#contenedor{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #d5d2ae;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+.titulo{
+    width: 970px;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 40px 130px 5px 150px;
+ 
+}
+.titulo h1{
+display: inline-block;
+font-size: 50px;
+margin: 0 auto;
+}
+.titulo img{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 110px;
+    height: 70px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+.imagenes{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 0 50px 29px;
+    box-sizing: border-box;
+    display: block;
+}
+.imagenes img{
+    background-color: #82b4ee;
+    border: 5px solid black;
+    padding: 10px;
+    width: 135px;
+    height: 135px;
+}
+.imagenes .red{
+    background-color: #f36870;
+}
+.imagenes .red:hover{
+    background-color: #82b4ee;
+}
+
+.imagenes img:hover{
+    background-color: #f36870;
+    cursor: pointer;
+}
